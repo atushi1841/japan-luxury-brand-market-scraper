@@ -38,6 +38,31 @@ Scrapes listings from **Komehyo (コメ兵)** — one of Japan's largest luxury 
 | `productUrl` | Product page URL |
 | `scrapedAt` | Scrape timestamp |
 
+## Output sample
+
+```json
+{
+  "productId": "230-000-742-0039",
+  "title": "【未使用品】エルメス ガーデン パーティ 30cm 051568CK バッグ",
+  "brand": "HERMES",
+  "price": 1100000,
+  "referencePrice": 694100,
+  "rank": "未使用品",
+  "size": null,
+  "material": null,
+  "store": "名古屋本館",
+  "imageUrl": "https://img.komehyo.jp/contents/images/goods/9ff/2300007420039_1_icon.jpg",
+  "productUrl": "https://komehyo.jp/product/230-000-742-0039/",
+  "category": "バッグ",
+  "source": "komehyo",
+  "shop": "Komehyo",
+  "condition": "未使用品",
+  "scrapedAt": "2026-08-10T09:55:15Z"
+}
+```
+
+The `source` + `store` fields let you compare the same brand item across shops: run once with `searchKeyword: "エルメス"` and get Komehyo and Jackroad prices side by side.
+
 ## Pricing
 
 Pay per event — $0.00005/run + **$0.002/item**.
