@@ -1,0 +1,10 @@
+{
+  "actorSpecification": 1,
+  "name": "japan-luxury-brand-market-scraper",
+  "title": "Japan Luxury Brand Market — Cross-Shop Price Comparison",
+  "version": "0.1",
+  "buildTag": "latest",
+  "dockerfile": "./Dockerfile",
+  "readme": "./README.md",
+  "input": "./INPUT_SCHEMA.json"
+}
