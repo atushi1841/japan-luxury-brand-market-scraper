@@ -1,5 +1,7 @@
 # Japan Luxury Brand Market — Cross-Shop Price Comparison
 
+[![Apify Store](https://img.shields.io/badge/Apify-Store-blue)](https://apify.com/fruitful_quintessence/japan-luxury-brand-market-scraper)
+
 **Compare used luxury brand prices (bags, wallets, jewelry, watches) across Japan's top resale retailers in a single dataset.**
 
 Scrapes listings from **Komehyo (コメ兵)** — one of Japan's largest luxury resale chains (bags, wallets, jewelry, watches) — and **Jackroad (ジャックロード)** — Tokyo's leading pre-owned luxury watch dealer. Each item is tagged with its `source`, `shop`, and `category` so you can compare prices for the same brand across shops.
